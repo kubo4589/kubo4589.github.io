@@ -1,0 +1,19 @@
+.message {
+	background-color: rgb(189, 7, 159);
+	border-radius: 1rem;
+	width: fit-content;
+	max-width: 80%;
+	border-bottom-left-radius: 0;
+}
+.message p {
+	color: white;
+	text-align: left;
+	padding: 7px;
+	padding-left: 13px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
