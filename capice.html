@@ -38,7 +38,32 @@
                 <img src="https://media.istockphoto.com/id/909957868/photo/kids-cap-with-propeller-colorful-hat-3d-rendering.jpg?s=612x612&w=0&k=20&c=DiNYPhH-VGlhJktxcUBxA6F2UISt5l6zCDuvWWB2yb8=" alt="capica" style="width: 16rem;">
 
         </tr>
-        <!-- Footer -->
+        <tr>
+            <td>
+                <div id="clock"></div>
+
+                <script>
+                  function updateClock() {
+                    const clockElement = document.getElementById('clock');
+                    const now = new Date();
+                    const hours = String(now.getHours()).padStart(2, '0');
+                    const minutes = String(now.getMinutes()).padStart(2, '0');
+                    const seconds = String(now.getSeconds()).padStart(2, '0');
+                    clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+                  }
+              
+                  // Update clock every second
+                  setInterval(updateClock, 1000);
+              
+                  // Initialize clock immediately
+                  updateClock();
+                </script>
+                
+
+            </td>
+
+
+        </tr>
         <tr>
             <td colspan="3" class="footer">
                 <p>&copy; 2024 Amazing</p>
