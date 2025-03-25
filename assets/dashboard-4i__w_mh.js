@@ -1,0 +1,1 @@
+import{t as e,a as o,m as r}from"./disclose-version-Djp_yTir.js";import"./legacy-DymWPHnH.js";var s=e('<p class="flex jusstify-center text-accent text-8xl">Work in progress</p>');function p(t){var a=s();o(t,a)}r(p,{target:document.body});
